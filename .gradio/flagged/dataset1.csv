@@ -1,0 +1,4 @@
+Pregnancies,Glucose,Bloodpressure,Skinthickness,Insulin,BMI,DiabetesPedigreeFunction,Age,output,timestamp
+2,10,120,5,5,22,0,50,Predicted HSC Result: 0,2026-01-20 21:59:46.182942
+10,120,110,1,2,30,3,50,0,2026-01-20 22:04:14.241902
+10,190,100,35,50,40,1.5,70,0,2026-01-20 22:08:21.840520
