@@ -28,7 +28,6 @@ def predict_diabetes(Pregnancies, Glucose, BloodPressure,
     # Predict
     prediction = model.predict(input_df)[0]
     
-    # Return formatted result (Clipped 0-5)
     return int(prediction)
 
 #  The App Interface
