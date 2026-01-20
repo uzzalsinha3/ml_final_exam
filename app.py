@@ -34,14 +34,14 @@ def predict_diabetes(Pregnancies, Glucose, BloodPressure,
 #  The App Interface
 # Defining inputs in a list
 inputs = [
-    gr.Number(label="Pregnancies"),
-    gr.Number(label="Glucose"),
-    gr.Number(label="Bloodpressure"),
-    gr.Number(label="Skinthickness"),
-    gr.Number(label="Insulin"),
-    gr.Number(label="BMI"),
-    gr.Number(label="DiabetesPedigreeFunction"),
-    gr.Number(label="Age")
+    gr.Slider(0, 20, step=1, label="Pregnancies"),
+    gr.Slider(0, 300, step=1, label="Glucose"),
+    gr.Slider(0, 200, step=1, label="Blood Pressure"),
+    gr.Slider(0, 100, step=1, label="Skin Thickness"),
+    gr.Slider(0, 900, step=1, label="Insulin"),
+    gr.Slider(0, 70, step=0.1, label="BMI"),
+    gr.Slider(0, 3, step=0.01, label="Diabetes Pedigree Function"),
+    gr.Slider(1, 120, step=1, label="Age")
 ]
 
 app = gr.Interface(
